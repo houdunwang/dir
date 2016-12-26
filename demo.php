@@ -1,3 +1,3 @@
 <?php
 require 'vendor/autoload.php';
-$obj = new \houdunwang\dir\Dir();
+\houdunwang\dir\Dir::create( 'a/b/c' );

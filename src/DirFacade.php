@@ -9,9 +9,9 @@
  * '-------------------------------------------------------------------*/
 namespace houdunwang\dir;
 
-use hdphp\kernel\ServiceFacade;
+use houdunwang\framework\build\Facade;
 
-class DirFacade extends ServiceFacade {
+class DirFacade extends Facade {
 	public static function getFacadeAccessor() {
 		return 'Dir';
 	}

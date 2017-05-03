@@ -11,45 +11,49 @@
 ```
 composer require houdunwang/dir
 ```
-> HDPHP 框架已经内置此组件，无需要安装
 
 ####创建目录
 ```
-\houdunwang\dir\Dir::create('Home/View');
+Dir::create('Home/View');
 ```
 
 ####删除目录
 ```
-\houdunwang\dir\Dir::del('Home');
+Dir::del('Home');
 ```
 
 ####复制目录
 ```
-\houdunwang\dir\Dir::copy('a','b');
+Dir::copy('a','b');
 ```
 
 ####删除文件
 ```
-\houdunwang\dir\Dir::delFile($file);
+Dir::delFile($file);
 ```
 
 ####移动目录
 ```
-\houdunwang\dir\Dir::move('a','b');
+Dir::move('a','b');
 ```
 
 ####目录树
 ```
-\houdunwang\dir\Dir::tree('Home');
+Dir::tree('Home');
 ```
 
 ####目录大小
 ```
-\houdunwang\dir\Dir::size('Home');
+Dir::size('Home');
 ```
 
 ####移动文件
 ```
-\houdunwang\dir\Dir::moveFile('hd.php','data');
+Dir::moveFile('hd.php','data');
 //将hd.php 移动到data目录
+```
+
+####复制文件
+```
+Dir::copyFile('README.md', 'tests/README.md')
 ```

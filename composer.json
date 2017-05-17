@@ -1,7 +1,6 @@
 {
   "name": "houdunwang/dir",
   "description": "目录组件用于对常用目录操作的实现",
-  "type": "project",
   "keywords": [
     "houdunwang",
     "hdphp",
